@@ -15,7 +15,7 @@ import { AppService } from './app.service';
       password: 'postgres',
       database: 'sushi_db',
       entities: [Product],
-      synchronize: true, // Only for development
+      synchronize: true,
     }),
     ProductsModule,
   ],

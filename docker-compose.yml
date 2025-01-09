@@ -23,7 +23,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "8080:3000"
     environment:
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/sushi_db
       NODE_ENV: development

@@ -20,6 +20,14 @@ export class Product {
   description: string;
 
   @ApiProperty()
+  @Column()
+  imageUrl: string;
+
+  @ApiProperty()
+  @Column('int')
+  weight: number;
+
+  @ApiProperty()
   @Column({ default: true })
   isAvailable: boolean;
 
